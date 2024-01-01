@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url("./font/Emulator.ttf") format("truetype");
+  font-family: pixel;
+}
+body {
+  background: #03031a;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: pixel;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 60vw;
+  height: 70vh;
+  margin: 5% auto;
+  border: 2px solid #fff;
+}
+.wrapper header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper header a {
+  padding: 50px 15px 1px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+.wrapper h1 {
+  font-weight: 400;
+  font-size: 3em;
+  color: #fcd975;
+  padding-left: 50px;
+}
+.wrapper .wrap {
+  display: grid;
+  grid-template-columns: 50% auto;
+  place-items: center;
+}
+.wrapper .wrap div {
+  padding: 2px;
+}
+.wrapper .wrap img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.wrapper img {
+  width: 100%;
+}
+.wrapper .simplebar-scrollbar::before {
+  background: #fff;
+  padding: 10px;
+}
+
+.footer {
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+a:link {
+  color: #75BFEC;
+}
+
+a:visited {
+  color: #9372F8;
+}/*# sourceMappingURL=style.css.map */
